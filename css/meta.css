@@ -1,0 +1,251 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif,Arial,Verdana,Helvetica;
+    font-size: 83%;
+    height: 100%;
+    color: #535353;
+}
+.container {
+    margin: 0 auto;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0 5px;
+
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.header {
+    background-color: rgba(81, 93, 78, 0.2);
+    position: absolute;
+    height: 5%;
+    width: 100%;
+}
+h1 {
+    font-weight: bold;
+    margin: 0 auto;
+    font-family: sans-serif,Arial,Verdana,Helvetica;
+    color: #2f71a2;
+    font-size: 160%;
+    line-height: normal;
+    padding-bottom: 5px;
+}
+.title
+    {
+    font-size: 100%;
+    float: right;
+    line-height: normal;
+    border: 0;
+    }
+h2
+{
+    font-family: sans-serif,Arial,Verdana,Helvetica;
+    color: #2f71a2;
+    font-size: 120%;
+    float: right;
+    line-height: normal;
+    border: 0;
+}
+
+.main{
+    display: block;
+    width: 468px;
+    /*height: 100%;*/
+    line-height: 125%;
+    color: #535353;
+    float: left;
+
+    position: absolute;
+    top: 7%;
+    right: 0;
+    bottom: 0;
+    left: -14%;
+    margin: auto;
+}
+
+.picture {
+    width: 250px;
+    height: 189px;
+}
+
+.columncol1 {
+    background: linear-gradient(white,lightgray);
+    display: block;
+    width: 185px;
+    float: left;
+    text-align: justify;
+    border: 1px solid lightgrey;
+    border-radius:5px;
+    box-sizing: border-box;
+    /*top:54px;*/
+    padding: 1px;
+    /*margin: 10px;*/
+
+    position: absolute;
+    top: 9%;
+    right: 0;
+
+    left: -65%;
+    margin: auto;
+
+}
+
+
+a  {
+    text-decoration: none;
+    color: #2f71a2;
+}
+
+a:hover {
+    text-decoration: underline;
+    padding: 10px;
+}
+ul {
+    list-style: circle;
+
+}
+
+.sub-menu
+{
+    white-space: normal;
+    display: none;
+}
+.main-item:focus ~ .sub-menu,
+.main-item:active ~ .sub-menu,
+.sub-menu:hover
+{
+    display: block;
+}
+.icon {
+    position: absolute;
+    width: 48px;
+    left: -7px;
+    top: -4px;
+    height: 48px;
+    margin: -15px 0 0 -18p}
+
+a:active{
+    color:black;
+    text-decoration: none;
+}
+
+.maintext {
+    width: 590px;
+    height: 610px;
+    /*padding-bottom: 60px;*/
+}
+li {
+    margin-left:0px;
+    padding-top: 2px;
+    padding-right: 10px;
+}
+div {
+    display: block;
+}
+.columncol2 {
+    background: linear-gradient(white,lightgrey);
+    width: 255px;
+    float: left;
+    font-size: 95%;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    box-sizing: border-box;
+    position: absolute;
+    top: 8%;
+    right: 0;
+
+    left: 61%;
+    margin: auto;
+}
+.col2  {
+
+    padding: 35px 20px 5px 9px;
+    text-align: left;
+    white-space: nowrap;
+}
+.h22 {
+    font-size: 135%;
+    padding-right: 5px;
+}
+
+.pogoda {
+    background: linear-gradient(white, lavender);
+    width: 255px;
+    float: left;
+    font-size: 95%;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    box-sizing: border-box;
+    position: absolute;
+    top: 30%;
+    right: 0;
+
+    left: 61%;
+    margin: auto;
+}
+
+.kapli {
+    position: absolute;
+    top: 95%;
+    right: 0;
+
+    left: 61%;
+    margin: auto;
+}
+
+
+
+.Pogoda-title {
+    padding: 40px 20px 0px 10px;
+    font-weight:700;
+    white-space: nowrap;
+    color: black;
+}
+.snow {
+    text-align: center;
+}
+
+.pogoda ul {
+    padding: 0px 0px 5px 21px;;
+}
+
+
+
+.Copyright {
+
+
+}
+.left {
+    background:linear-gradient(rgba(81, 93, 78, 0.2),white);
+    position: absolute;
+    height: calc(170% - 320px);
+    width: 9%;
+    float: left;
+}
+.right {
+    background:linear-gradient(rgba(81, 93, 78, 0.2),white);
+    position: absolute;
+    height: calc(170% - 320px);
+    width: 9%;
+    left: 91%;
+}
+
+
+footer {
+
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background-color: white;
+    border: 1px solid lightgrey;
+    text-align: center;
+    margin: 0;
+    padding: 5px 44px;
+    font-size: 75%;
+    color: #888
+
+}
